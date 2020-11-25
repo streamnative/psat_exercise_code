@@ -13,14 +13,17 @@ import org.apache.pulsar.client.impl.auth.oauth2.AuthenticationFactoryOAuth2;
 
 // read lines out from file and send to Pulsar topic
 public class MyPulsarProducer {
-    public void createProducer(String filename)
+    public void createProducer()
             throws IOException, PulsarClientException {
         String topicName = "helloworld_topic";
-        System.out.println("Sending " + filename + " to Pulsar on " + topicName);
+        String filename =
+            "/Users/jia/ws/play/psat_exercise_code/dataset/playing_cards_datetime_short.tsv";
 
         String issuerUrl = "https://auth.cloud.streamnative.cn";
         String credentialsUrl = "file:///Users/jia/Downloads/jia-org-admin.json";
         String audience = "urn:sn:pulsar:jia-org:hello-instance1";
+
+        System.out.println("Sending " + filename + " to Pulsar on " + topicName);
 
         PulsarClient client = PulsarClient.builder()
             .serviceUrl("pulsar+ssl://hello-cluster1.jia-org.cn-zjk.streamnative.ali.snpulsar.cn:6651")
@@ -60,15 +63,11 @@ public class MyPulsarProducer {
     }
 
     public static void main(String[] args) {
-        if (args.length != 1) {
-            System.err.println("Must specify filename and topic name");
-            System.exit(-1);
-        }
 
         MyPulsarProducer producer = new MyPulsarProducer();
 
         try {
-            producer.createProducer(args[0]);
+            producer.createProducer();
         } catch (IOException e) {
             e.printStackTrace();
         }
