@@ -1,0 +1,27 @@
+{"namespace": "solution.model",
+ "type": "record",
+ "name": "Card",
+ "fields": [
+     {"name": "start_time", "type": "string", "default" : "", "doc" : "Time the card was played at"},
+     {"name": "game_id", "type": "string", "default" : "", "doc" : "The unique ID of the game"},
+     {
+      "name": "game_type", "doc" : "Type of game the card was played in",
+      "type" : {
+        "type" : "enum",
+      "name" : "GameTypes",
+      "symbols" : ["TexasHoldem", "Blackjack", "PaiGow", "FiveCardDraw"]
+     },
+    "default" : "TexasHoldem"
+   },
+   {
+    "name": "suit", "doc" : "The suit of the card",
+      "type" : {
+        "type" : "enum",
+      "name" : "Suit",
+      "symbols" : ["SPADE", "HEART", "DIAMOND", "CLUB"]
+     },
+    "default" : "SPADE"
+   },
+   {"name": "card", "type": "string", "default" : "", "doc" : "The card number"}
+ ]
+}
