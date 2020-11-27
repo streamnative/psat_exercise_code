@@ -1,0 +1,394 @@
+{
+    "data": [
+      {
+        "level": 1,
+        "key": "/overview.md",
+        "label": "简介",
+        "path": "/cloud/stable/overview",
+        "children": [],
+        "active": false,
+        "id": 1
+      },
+      {
+        "level": 1,
+        "key": "/concepts",
+        "label": "基本概念",
+        "path": "",
+        "active": false,
+        "id": 2,
+        "children": [
+          {
+            "level": 2,
+            "key": "/concepts/concepts.md",
+            "label": "基本概念",
+            "path": "/cloud/stable/concepts/concepts",
+            "children": [],
+            "active": false,
+            "id": 21
+          },
+          {
+            "level": 2,
+            "key": "/concepts/cloud-api",
+            "label": "Cloud API",
+            "path": "",
+            "active": false,
+            "id": 22,
+            "children": [
+              {
+                "level": 3,
+                "key": "/concepts/cloud-api/cloud-api.md",
+                "label": "简介",
+                "path": "/cloud/stable/concepts/cloud-api/cloud-api",
+                "children": [],
+                "active": false,
+                "id": 221
+              },
+              {
+                "level": 3,
+                "key": "/concepts/cloud-api/cloud-object.md",
+                "label": "Cloud 对象",
+                "path": "/cloud/stable/concepts/cloud-api/cloud-object",
+                "children": [],
+                "active": false,
+                "id": 222
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "key": "/quickstart",
+        "label": "快速入门",
+        "path": "",
+        "active": false,
+        "id": 3,
+        "children": [
+          {
+            "level": 2,
+            "key": "/quickstart/quickstart-snctl.md",
+            "label": "快速入门（snctl）",
+            "path": "/cloud/stable/quickstart/quickstart-snctl",
+            "children": [],
+            "active": false,
+            "id": 31
+          },
+          {
+            "level": 2,
+            "key": "/quickstart/quickstart-manager.md",
+            "label": "快速入门（StreamNative Cloud Manager）",
+            "path": "/cloud/stable/quickstart/quickstart-manager",
+            "children": [],
+            "active": false,
+            "id": 32
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "key": "/use",
+        "label": "配置管理",
+        "path": "",
+        "active": false,
+        "id": 4,
+        "children": [
+          {
+            "level": 2,
+            "key": "/use/organization.md",
+            "label": "配置组织",
+            "path": "/cloud/stable/use/organization",
+            "children": [ ],
+            "active": false,
+            "id": 41
+          },
+          {
+            "level": 2,
+            "key": "/use/instance.md",
+            "label": "配置实例",
+            "path": "/cloud/stable/use/instance",
+            "children": [ ],
+            "active": false,
+            "id": 42
+          },
+          {
+            "level": 2,
+            "key": "/use/cluster.md",
+            "label": "配置集群",
+            "path": "/cloud/stable/use/cluster",
+            "children": [ ],
+            "active": false,
+            "id": 43
+          },
+          {
+            "level": 2,
+            "key": "/use/tenant.md",
+            "label": "配置租户",
+            "path": "/cloud/stable/use/tenant",
+            "children": [ ],
+            "active": false,
+            "id": 44
+          },
+          {
+            "level": 2,
+            "key": "/use/namespace.md",
+            "label": "配置命名空间",
+            "path": "/cloud/stable/use/namespace",
+            "children": [ ],
+            "active": false,
+            "id": 45
+          },
+          {
+            "level": 2,
+            "key": "/use/topic.md",
+            "label": "配置主题",
+            "path": "/cloud/stable/use/topic",
+            "children": [ ],
+            "active": false,
+            "id": 46
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "key": "/managed-access",
+        "label": "访问控制",
+        "path": "",
+        "active": false,
+        "id": 5,
+        "children": [
+          {
+            "level": 2,
+            "key": "/managed-access/service-account.md",
+            "label": "配置服务账户",
+            "path": "/cloud/stable/managed-access/service-account",
+            "children": [ ],
+            "active": false,
+            "id": 51
+          },
+          {
+            "level": 2,
+            "key": "/managed-access/user.md",
+            "label": "配置用户",
+            "path": "/cloud/stable/managed-access/user",
+            "children": [ ],
+            "active": false,
+            "id": 52
+          },
+          {
+            "level": 2,
+            "key": "/managed-access/access-control.md",
+            "label": "授权和 ACL",
+            "path": "/cloud/stable/managed-access/access-control",
+            "children": [ ],
+            "active": false,
+            "id": 53
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "key": "/connect",
+        "label": "连接集群",
+        "path": "",
+        "active": false,
+        "id": 6,
+        "children": [
+          {
+            "level": 2,
+            "key": "/connect/overview.md",
+            "label": "简介",
+            "path": "/cloud/stable/connect/overview",
+            "children": [ ],
+            "active": false,
+            "id": 61
+          },
+          {
+            "level": 2,
+            "key": "/connect/cli",
+            "label": "CLI",
+            "path": "",
+            "active": false,
+            "id": 62,
+            "children": [
+              {
+                "level": 3,
+                "key": "/connect/cli/connect-pulsarctl.md",
+                "label": "pulsarctl",
+                "path": "/cloud/stable/connect/cli/connect-pulsarctl",
+                "children": [],
+                "active": false,
+                "id": 621
+              },
+              {
+                "level": 3,
+                "key": "/connect/cli/connect-pulsaradmin.md",
+                "label": "pulsar-admin",
+                "path": "/cloud/stable/connect/cli/connect-pulsaradmin",
+                "children": [],
+                "active": false,
+                "id": 622
+              },
+              {
+                "level": 3,
+                "key": "/connect/cli/connect-pulsarclient.md",
+                "label": "pulsar-client",
+                "path": "/cloud/stable/connect/cli/connect-pulsarclient",
+                "children": [],
+                "active": false,
+                "id": 623
+              },
+              {
+                "level": 3,
+                "key": "/connect/cli/connect-pulsarperf.md",
+                "label": "pulsar-perf",
+                "path": "/cloud/stable/connect/cli/connect-pulsarperf",
+                "children": [],
+                "active": false,
+                "id": 624
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "key": "/connect/client",
+            "label": "客户端",
+            "path": "",
+            "active": false,
+            "id": 63,
+            "children": [
+              {
+                "level": 3,
+                "key": "/connect/client/connect-java.md",
+                "label": "Java 客户端",
+                "path": "/cloud/stable/connect/client/connect-java",
+                "children": [],
+                "active": false,
+                "id": 631
+              },
+              {
+                "level": 3,
+                "key": "/connect/client/connect-cpp.md",
+                "label": "C++ 客户端",
+                "path": "/cloud/stable/connect/client/connect-cpp",
+                "children": [],
+                "active": false,
+                "id": 632
+              },
+              {
+                "level": 3,
+                "key": "/connect/client/connect-go.md",
+                "label": "Go 客户端",
+                "path": "/cloud/stable/connect/client/connect-go",
+                "children": [],
+                "active": false,
+                "id": 633
+              },
+              {
+                "level": 3,
+                "key": "/connect/client/connect-python.md",
+                "label": "Python 客户端",
+                "path": "/cloud/stable/connect/client/connect-python",
+                "children": [],
+                "active": false,
+                "id": 634
+              },
+              {
+                "level": 3,
+                "key": "/connect/client/connect-nodejs.md",
+                "label": "Node.js 客户端",
+                "path": "/cloud/stable/connect/client/connect-nodejs",
+                "children": [],
+                "active": false,
+                "id": 635
+              }
+
+            ]
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "key": "/monitor",
+        "label": "监控管理",
+        "path": "",
+        "active": false,
+        "id": 11,
+        "children": [
+          {
+            "level": 2,
+            "key": "/monitor/overview.md",
+            "label": "简介",
+            "path": "/cloud/stable/monitor/overview",
+            "children": [],
+            "active": false,
+            "id": 1101
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "key": "/billing.md",
+        "label": "计费管理",
+        "path": "/cloud/stable/billing",
+        "children": [],
+        "active": false,
+        "id": 7
+      },
+      {
+        "level": 1,
+        "key": "/reference",
+        "label": "通用参考",
+        "path": "",
+        "active": false,
+        "id": 8,
+        "children": [
+          {
+            "level": 2,
+            "key": "/reference/snctl-reference.md",
+            "label": "snctl CLI 参考",
+            "path": "/cloud/stable/reference/snctl-reference",
+            "children": [],
+            "active": false,
+            "id": 81
+          },
+          {
+            "level": 2,
+            "key": "/reference/api-reference.md",
+            "label": "API 参考",
+            "path": "/api/cloud",
+            "children": [],
+            "active": false,
+            "id": 82
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "key": "/faq.md",
+        "label": "常见问题",
+        "path": "/zh/faq",
+        "children": [],
+        "active": false,
+        "id": 9
+      },
+      {
+        "level": 1,
+        "key": "/releases",
+        "label": "发布记录",
+        "path": "",
+        "active": false,
+        "id": 10,
+        "children": [
+          {
+            "level": 2,
+            "key": "/releases/november-2020.md",
+            "label": "2020年11月",
+            "path": "/cloud/stable/releases/november-2020",
+            "children": [],
+            "active": false,
+            "id": 101
+          }
+        ]
+      }
+    ]
+  }
