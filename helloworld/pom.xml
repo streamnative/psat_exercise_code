@@ -9,7 +9,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <packaging>jar</packaging>
   <properties>
     <!-- Keep Pulsar versions as properties to allow easy modification -->
-    <pulsar.version>2.6.1</pulsar.version>
+    <pulsar.version>2.7.5</pulsar.version>
     <log4j.version>2.13.0</log4j.version>
     <!-- Maven properties for compilation -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
